@@ -3,7 +3,7 @@
     --text-color-secondary:#757575;
     --text-color-accent: #2196F3;
     --text-color-accent2: #ffffff;
-    --text-color-footer: rgba(255, 255, 255, 0.6);;
+    --text-color-footer: rgba(255, 255, 255, 0.6);
     --background-color-main: #ffffff;
     --background-color-secondary: #F5F4FA;
     --background-color-accent: #2196F3;
@@ -44,15 +44,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .link {
     text-decoration: none;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-contacts .link:hover,
-.site-contacts .link:focus {
-    color: var( --text-color-accent);
 }
 
 /*Navbar (header)styling */
@@ -176,6 +168,13 @@ h1,h2,h3,h4,h5,h6 {
     padding-left: 10px;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color: var( --text-color-accent);
+}
+
 .button-icon {
     fill: var(--text-color-secondary);
     margin-right: 10px;
@@ -190,7 +189,6 @@ h1,h2,h3,h4,h5,h6 {
 .site-contacts .item:hover .link {
     color: var(--text-color-accent);
 }
-
 
 /*Section "Hero" styling*/
 .hero {
@@ -385,7 +383,6 @@ h1,h2,h3,h4,h5,h6 {
     bottom: 0;
 }
 
-
 /*Headers styling for "Our Ptojects","Our team", "Our Clients" */
 .section-title {
     margin-top: 0;
@@ -499,7 +496,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /*Section "Clients" styling*/
-
 .clients-container {
     max-width: 1600px;
     margin-left: auto;
@@ -507,7 +503,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .clients {
-
     padding-top: 94px;
     padding-bottom: 94px;
     padding-left: 15px;
@@ -727,7 +722,7 @@ h1,h2,h3,h4,h5,h6 {
     background-repeat: no-repeat;
    
 }
-
+/*Modal form*/
 .backdrop {
     position: fixed;
     top: 0;
